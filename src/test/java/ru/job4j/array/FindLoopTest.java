@@ -14,7 +14,6 @@ class FindLoopTest {
         int expected = 0;
         assertThat(result).isEqualTo(expected);
     }
-
     @Test
     void whenArrayHasNot7ThenMinus1() {
         int[] data = new int[] {5, 10, 3};
