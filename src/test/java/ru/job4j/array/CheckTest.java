@@ -33,4 +33,8 @@ class CheckTest {
         boolean result = Check.mono(data);
         assertThat(result).isFalse();
     }
+
+    @Test
+    void mono() {
+    }
 }
