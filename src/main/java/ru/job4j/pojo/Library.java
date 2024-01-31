@@ -20,7 +20,7 @@ public class Library {
             System.out.println(book.getTitle() + " - " + book.getQuantity());
         }
         for (Book book : books) {
-            if (book.getTitle().equals("Clean code")) {
+            if ("Clean code".equals(book.getTitle())) {
                 System.out.println(book.getTitle() + " - " + book.getQuantity());
             }
         }
