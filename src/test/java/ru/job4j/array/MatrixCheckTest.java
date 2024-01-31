@@ -56,12 +56,12 @@ class MatrixCheckTest {
     @Test
     public void whenDiagonalFullX() {
         char[][] input = {
-                {'1', ' ', ' '},
-                {' ', '1', 'X'},
-                {' ', ' ', '1'},
+                {'X', ' ', ' '},
+                {' ', 'X', 'X'},
+                {' ', ' ', 'X'},
         };
         char[] result = MatrixCheck.extractDiagonal(input);
-        char[] expected = {'1', '1', '1'};
+        char[] expected = {'X', 'X', 'X'};
         assertThat(result).containsExactly(expected);
     }
 
